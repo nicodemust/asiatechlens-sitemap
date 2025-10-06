@@ -1,5 +1,39 @@
+# Asia Tech Lens - robots.txt
+# Policy: Allow search and AI referencing, restrict AI model training.
+
 User-agent: *
+Content-signal: search=yes,ai-input=yes,ai-train=no
 Allow: /
+
+# -- AI & major crawlers ---------------------
+User-agent: GPTBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+# --------------------------------------------
 
 # Primary Substack sitemap (auto-generated)
 Sitemap: https://asiatechlens.com/sitemap.xml
