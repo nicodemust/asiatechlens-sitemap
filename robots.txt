@@ -33,7 +33,7 @@ Allow: /
 User-agent: Amazonbot
 Allow: /
 
-# -------------------------------------------
+# --------------------------------------------
 
 # Primary Substack sitemap (auto-generated)
 Sitemap: https://asiatechlens.com/sitemap.xml
