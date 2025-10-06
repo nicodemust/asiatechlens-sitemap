@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Primary Substack sitemap (auto-generated)
+Sitemap: https://asiatechlens.com/sitemap.xml
+
+# Custom content sitemap (core pages, categories, articles)
+Sitemap: https://asiatechlens.com/custom-sitemap.xml
+
+# Image sitemap (thumbnails and OG images)
+Sitemap: https://asiatechlens.com/image-sitemap.xml
